@@ -32,7 +32,7 @@ const stackLayers = [
     name: "VIBE Token",
     description: "Economic layer",
     color: "#f59e0b",
-    href: "https://vibetoken.xyz",
+    href: "https://www.vibe-token.com",
   },
   {
     layer: "L5",

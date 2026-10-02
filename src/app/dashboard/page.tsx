@@ -65,7 +65,7 @@ export default function Dashboard() {
               </div>
               <div className="space-y-4">
                 {[
-                  { type: "receive", desc: "Received 50 VIBE from staking rewards", time: "2 hours ago", color: "cyan" },
+                  { type: "receive", desc: "Received 50 VIBE", time: "2 hours ago", color: "cyan" },
                   { type: "device", desc: "Omega Router firmware updated", time: "3 hours ago", color: "gold" },
                   { type: "home", desc: "Smart thermostat adjusted to 72°F", time: "5 hours ago", color: "gold" },
                   { type: "ai", desc: "Pythia health report generated", time: "8 hours ago", color: "pythia" },
@@ -168,8 +168,8 @@ export default function Dashboard() {
                 </div>
                 <div className="pt-2 border-t border-[var(--border-default)]">
                   <div className="flex justify-between items-center">
-                    <span className="text-sm text-[var(--text-muted)]">Staking APY</span>
-                    <span className="text-[var(--cyan)]">12.5%</span>
+                    <span className="text-sm text-[var(--text-muted)]">Network</span>
+                    <span className="text-[var(--cyan)]">Sample data</span>
                   </div>
                 </div>
               </div>

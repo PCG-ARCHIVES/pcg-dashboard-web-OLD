@@ -23,7 +23,7 @@ const ecosystemProjects = [
   {
     id: "vibe",
     name: "VIBE Token",
-    url: "https://vibetoken.xyz",
+    url: "https://www.vibe-token.com",
     color: "#22c55e",
   },
   {
@@ -141,7 +141,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://okb-ventures.vercel.app"
+                  href="https://www.okbventures.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-[var(--text-muted)] hover:text-[var(--sovereign-gold)] transition-colors"

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const stackLayers = [
   { layer: "L5", name: "Spectrum Galactic", desc: "LEO satellite connectivity for global coverage", href: "https://spectrumgalactic.xyz", color: "#00d4ff" },
-  { layer: "L4", name: "VIBE Token", desc: "Economic layer powering transactions", href: "https://vibetoken.xyz", color: "#f59e0b" },
+  { layer: "L4", name: "VIBE Token", desc: "Economic layer powering transactions", href: "https://www.vibe-token.com", color: "#f59e0b" },
   { layer: "L3", name: "Pythia AI", desc: "Distributed AI compute and intelligence", href: "https://pythia-ai.xyz", color: "#8b5cf6" },
   { layer: "L2", name: "Vibertas", desc: "Operating system for digital sovereignty", current: true, color: "#ae904c" },
   { layer: "L1", name: "Omega Wireless", desc: "Privacy-focused hardware and routers", href: "https://omegawireless.xyz", color: "#00aaff" },
@@ -223,7 +223,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-8">Backed By</h2>
           <a
-            href="https://okb-ventures.vercel.app"
+            href="https://www.okbventures.com"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block"
@@ -258,7 +258,7 @@ export default function About() {
               Get updates
             </a>
             <a
-              href="https://okb-ventures.vercel.app/contact"
+              href="https://www.okbventures.com/contact"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"

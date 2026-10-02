@@ -40,7 +40,7 @@ const ecosystemProjects = [
     name: "VIBE Token",
     shortName: "VIBE",
     description: "Ecosystem Rewards",
-    url: "https://vibetoken.xyz",
+    url: "https://www.vibe-token.com",
     color: "#22c55e",
   },
   {
