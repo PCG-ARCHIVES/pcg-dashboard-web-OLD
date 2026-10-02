@@ -25,12 +25,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.vibertas.com"),
   title: {
     default: "Vibertas - Own Your Digital Life",
     template: "%s | Vibertas",
   },
   description: "Vibertas is a NixOS-based node operating system for the Sovereign Stack. In development and not yet released.",
   keywords: ["vibertas", "sovereign stack", "privacy os", "mesh network", "pcg dashboard", "alpha protocol", "omega", "vibe token", "pythia ai", "powerclub global"],
+  openGraph: {
+    title: "Vibertas - Own Your Digital Life",
+    description: "Vibertas is a NixOS-based node operating system for the Sovereign Stack. In development and not yet released.",
+    type: "website",
+    locale: "en_US",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Vibertas | Own Your Digital Life" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vibertas - Own Your Digital Life",
+    description: "Vibertas is a NixOS-based node operating system for the Sovereign Stack. In development and not yet released.",
+    images: ["/opengraph-image"],
+  },
 };
 
 export default function RootLayout({

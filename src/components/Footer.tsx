@@ -125,9 +125,9 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Backed By */}
+          {/* Company */}
           <div>
-            <h4 className="font-semibold text-[var(--text-primary)] mb-4">Backed By</h4>
+            <h4 className="font-semibold text-[var(--text-primary)] mb-4">Company</h4>
             <ul className="space-y-2">
               <li>
                 <a

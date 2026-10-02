@@ -218,10 +218,10 @@ export default function About() {
         </div>
       </section>
 
-      {/* Backed By */}
+      {/* Company */}
       <section className="py-24 bg-[var(--bg-surface)]">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">Backed By</h2>
+          <h2 className="text-3xl font-bold mb-8">Built By</h2>
           <a
             href="https://www.okbventures.com"
             target="_blank"
