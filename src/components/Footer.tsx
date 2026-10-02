@@ -180,7 +180,7 @@ export default function Footer() {
         <div className="pt-6 border-t border-[var(--border-default)]">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-[var(--text-muted)]">
-              &copy; 2026 Vibertas by <a href="https://powerclubglobal.com" target="_blank" rel="noopener noreferrer" className="text-[var(--gold)] hover:underline">Powerclub Global</a>. Part of the Sovereign Stack.
+              &copy; 2026 Vibertas. Built by <a href="https://powerclubglobal.com" target="_blank" rel="noopener noreferrer" className="text-[var(--gold)] hover:underline">Powerclub Global</a>. Founded by the managing partner of <a href="https://www.okbventures.com" target="_blank" rel="noopener noreferrer" className="text-[var(--gold)] hover:underline">OKB Ventures</a>. Part of the Sovereign Stack.
             </p>
             <div className="flex items-center gap-4">
               <Link href="/about" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] transition-colors">
