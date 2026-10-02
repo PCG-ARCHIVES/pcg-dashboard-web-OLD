@@ -168,7 +168,7 @@ const useCaseDetails = {
     id: "enterprise",
     title: "Enterprise",
     subtitle: "Sovereign Infrastructure at Scale",
-    description: "Deploy Vibertas across your organization. Self-hosted, compliant, and fully under your control.",
+    description: "Designed for self-hosted deployment under your control.",
     color: "gold",
     features: [
       {
@@ -177,7 +177,7 @@ const useCaseDetails = {
       },
       {
         title: "Fleet Management",
-        description: "Manage thousands of devices from a central console with granular controls.",
+        description: "Designed to manage large fleets of devices from a central console. Planned.",
       },
       {
         title: "Compliance Tools",
@@ -209,8 +209,8 @@ export default function Features() {
             One OS, <span className="text-gradient-gold">Every Device</span>
           </h1>
           <p className="text-xl text-[var(--text-secondary)] max-w-2xl mx-auto">
-            Vibertas adapts to your needs—from personal computers to enterprise fleets,
-            smart homes to wearables. All powered by the Sovereign Stack.
+            The features below describe the design goals for Vibertas, which is in development
+            and not yet released.
           </p>
         </div>
       </NavyGridBackground>
@@ -344,7 +344,7 @@ export default function Features() {
             Ready to <span className="text-gradient-gold">Get Started</span>?
           </h2>
           <p className="text-[var(--text-secondary)] text-lg mb-8">
-            Choose the right plan for your needs—from free personal use to enterprise deployments.
+            Vibertas is in development. Pricing has not been set.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/pricing" className="btn-primary">

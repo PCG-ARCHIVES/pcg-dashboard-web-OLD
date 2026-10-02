@@ -250,12 +250,12 @@ export default function About() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://app.vibertas.io/register"
+              href="https://www.alphaprotocol.network/join"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Get Started Free
+              Get updates
             </a>
             <a
               href="https://okb-ventures.vercel.app/contact"

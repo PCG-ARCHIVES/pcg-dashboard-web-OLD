@@ -68,7 +68,7 @@ export const features: Feature[] = [
 
 export const stats = [
   { value: "6", label: "Stack Layers" },
-  { value: "1", label: "Flagship App", highlight: true },
+  { value: "1", label: "Flagship App (in development)", highlight: true },
   { value: "∞", label: "Possibilities" },
-  { value: "FREE", label: "For Developers", highlight: true },
+  { value: "Early", label: "Stage", highlight: true },
 ];

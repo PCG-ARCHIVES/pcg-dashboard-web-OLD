@@ -19,7 +19,7 @@ const enterpriseFeatures = [
   },
   {
     title: "Fleet Device Management",
-    description: "Manage thousands of devices from a central console. Remote updates, diagnostics, and policy enforcement at scale.",
+    description: "Designed to manage large fleets of devices from a central console, with remote updates, diagnostics, and policy enforcement. Planned.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
@@ -28,7 +28,7 @@ const enterpriseFeatures = [
   },
   {
     title: "Compliance & Audit",
-    description: "Built-in tools for GDPR, HIPAA, SOC 2, and other compliance frameworks. Complete audit trails and data retention policies.",
+    description: "Planned tools to support compliance work, with audit trails and data retention policies. Vibertas holds no compliance certifications.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -67,12 +67,12 @@ const enterpriseFeatures = [
 const useCases = [
   {
     title: "Healthcare",
-    description: "HIPAA-compliant patient data management, secure telehealth, and private health records.",
+    description: "Designed to support private patient data management, secure telehealth, and private health records.",
     icon: "🏥",
   },
   {
     title: "Finance",
-    description: "Secure trading infrastructure, compliant record-keeping, and private transaction processing.",
+    description: "Designed to support secure trading infrastructure, record-keeping, and private transaction processing.",
     icon: "🏦",
   },
   {
@@ -97,24 +97,6 @@ const useCases = [
   },
 ];
 
-const testimonials = [
-  {
-    quote: "Vibertas gave us the control we needed over our patient data. The compliance tools alone saved us months of development.",
-    author: "Dr. Sarah Chen",
-    role: "CTO, MedSecure Health Systems",
-  },
-  {
-    quote: "We deployed across 50,000 devices in three months. The fleet management capabilities are unmatched.",
-    author: "Marcus Johnson",
-    role: "VP of IT, GlobalTech Manufacturing",
-  },
-  {
-    quote: "Finally, an operating system that understands enterprise security isn't optional. It's foundational.",
-    author: "Elena Rodriguez",
-    role: "CISO, SecureBank International",
-  },
-];
-
 export default function Enterprise() {
   return (
     <div className="pt-16">
@@ -128,8 +110,8 @@ export default function Enterprise() {
             Sovereign Infrastructure <span className="text-gradient-gold">at Scale</span>
           </h1>
           <p className="text-xl text-[var(--text-secondary)] max-w-2xl mx-auto mb-8">
-            Deploy Vibertas across your organization with complete control, compliance-ready tools,
-            and enterprise-grade support. Your data, your infrastructure, your rules.
+            Vibertas is in development and not yet released. The design aims at self-hosted deployment
+            under your control. Contact us to discuss your needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -138,7 +120,7 @@ export default function Enterprise() {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Contact Sales
+              Contact Us
             </a>
             <a href="#features" className="btn-secondary">
               Explore Features
@@ -146,25 +128,6 @@ export default function Enterprise() {
           </div>
         </div>
       </NavyGridBackground>
-
-      {/* Stats */}
-      <section className="py-16 bg-[var(--bg-surface)]">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {[
-              { value: "99.99%", label: "Uptime SLA" },
-              { value: "50K+", label: "Enterprise Devices" },
-              { value: "< 15min", label: "Response Time" },
-              { value: "SOC 2", label: "Certified" },
-            ].map((stat) => (
-              <div key={stat.label}>
-                <div className="text-3xl md:text-4xl font-bold text-gradient-gold mb-2">{stat.value}</div>
-                <div className="text-sm text-[var(--text-muted)]">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Features */}
       <section id="features" className="py-24">
@@ -203,18 +166,15 @@ export default function Enterprise() {
                 Security & <span className="text-gradient-gold">Compliance</span>
               </h2>
               <p className="text-[var(--text-secondary)] mb-8">
-                Built from the ground up with security and compliance requirements in mind.
-                Vibertas meets the strictest enterprise security standards while remaining
-                flexible enough for any deployment scenario.
+                Vibertas is designed with security and compliance requirements in mind.
+                It has not been audited or certified against any standard.
               </p>
 
               <div className="space-y-4">
                 {[
-                  { title: "SOC 2 Type II", desc: "Certified security controls and procedures" },
-                  { title: "GDPR Ready", desc: "Data sovereignty and privacy by design" },
-                  { title: "HIPAA Compliant", desc: "Healthcare data protection standards" },
-                  { title: "ISO 27001", desc: "Information security management" },
-                  { title: "FedRAMP", desc: "Federal government security requirements" },
+                  { title: "No certifications yet", desc: "SOC 2, ISO 27001, HIPAA and FedRAMP are not claimed" },
+                  { title: "Data sovereignty", desc: "Design goal: your data stays under your control" },
+                  { title: "Self-hosted", desc: "Design goal: runs on your own infrastructure" },
                 ].map((item) => (
                   <div key={item.title} className="flex items-start gap-3">
                     <span className="text-[var(--gold)] mt-1">&#10003;</span>
@@ -270,28 +230,6 @@ export default function Enterprise() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-24 bg-[var(--bg-surface)]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Trusted by Industry Leaders</h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial) => (
-              <div key={testimonial.author} className="p-6 bg-[var(--bg-card)] rounded-xl border border-[var(--border-default)]">
-                <div className="text-[var(--gold)] text-4xl mb-4">"</div>
-                <p className="text-[var(--text-secondary)] mb-6 italic">{testimonial.quote}</p>
-                <div>
-                  <div className="font-semibold text-[var(--text-primary)]">{testimonial.author}</div>
-                  <div className="text-sm text-[var(--text-muted)]">{testimonial.role}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Pricing */}
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 text-center">
@@ -308,7 +246,7 @@ export default function Enterprise() {
                 <ul className="space-y-2 text-sm text-[var(--text-secondary)]">
                   <li>&#10003; Dedicated account manager</li>
                   <li>&#10003; 24/7 priority support</li>
-                  <li>&#10003; Custom SLA options</li>
+                  <li>&#10003; Support terms to be discussed</li>
                   <li>&#10003; Professional services</li>
                 </ul>
               </div>
@@ -372,7 +310,7 @@ export default function Enterprise() {
               href="mailto:enterprise@vibertas.io"
               className="btn-secondary"
             >
-              Contact Sales
+              Contact Us
             </a>
           </div>
         </div>

@@ -12,28 +12,28 @@ const sdks = [
     name: "JavaScript/TypeScript",
     description: "Full-featured SDK for web and Node.js applications",
     install: "npm install @vibertas/sdk",
-    status: "stable",
+    status: "planned",
     docs: "#sdk-js",
   },
   {
     name: "Python",
     description: "Python SDK for backend services and data processing",
     install: "pip install vibertas",
-    status: "stable",
+    status: "planned",
     docs: "#sdk-python",
   },
   {
     name: "Rust",
     description: "High-performance SDK for systems programming",
     install: "cargo add vibertas",
-    status: "beta",
+    status: "planned",
     docs: "#sdk-rust",
   },
   {
     name: "Go",
     description: "Go SDK for microservices and infrastructure",
     install: "go get github.com/vibertas/sdk-go",
-    status: "beta",
+    status: "planned",
     docs: "#sdk-go",
   },
 ];
@@ -123,12 +123,12 @@ export default function Developers() {
             Build on the <span className="text-gradient-gold">Sovereign Stack</span>
           </h1>
           <p className="text-xl text-[var(--text-secondary)] max-w-2xl mx-auto mb-8">
-            Create privacy-first applications with mesh networking, distributed AI,
-            and token economics built in. Everything you need to build sovereign software.
+            The developer platform is planned. The SDKs, APIs and commands on this page describe
+            the intended design. None of them are published yet.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#quickstart" className="btn-primary">
-              Get Started
+              View the Plan
             </a>
             <a href="#api-reference" className="btn-secondary">
               API Reference
@@ -143,7 +143,7 @@ export default function Developers() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Quick Start</h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Start building on Vibertas in minutes with our SDK.
+              Planned developer experience. The SDK is not published yet.
             </p>
           </div>
 
@@ -390,16 +390,12 @@ const insight = await sos.ai.query({
                 Join the <span className="text-gradient-gold">Builder Community</span>
               </h2>
               <p className="text-[var(--text-secondary)] mb-6">
-                Get early access to new features, direct support from the core team,
-                and opportunities to earn VIBE tokens for your contributions.
+                A developer program is planned. It is not open yet and no benefits
+                have been set. Follow Alpha Protocol for updates.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
-                  "Priority access to new APIs and features",
-                  "Direct Slack channel with core developers",
-                  "VIBE token grants for approved projects",
-                  "Featured placement in the app directory",
-                  "Technical co-marketing opportunities",
+                  "Not open yet",
                 ].map((benefit) => (
                   <li key={benefit} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
                     <span className="text-[var(--gold)]">✓</span>
@@ -407,8 +403,8 @@ const insight = await sos.ai.query({
                   </li>
                 ))}
               </ul>
-              <a href="#" className="btn-primary">
-                Apply to Developer Program
+              <a href="https://www.alphaprotocol.network/join" target="_blank" rel="noopener noreferrer" className="btn-primary">
+                Get updates
               </a>
             </div>
 
@@ -416,9 +412,9 @@ const insight = await sos.ai.query({
               <h3 className="text-lg font-semibold text-[var(--gold)] mb-6">Developer Tiers</h3>
               <div className="space-y-6">
                 {[
-                  { name: "Free", price: "$0", features: ["10K API calls/month", "5K test VIBE", "Community support"] },
-                  { name: "Pro", price: "$49/mo", features: ["100K API calls/month", "50K test VIBE", "Priority support", "Staging environment"] },
-                  { name: "Enterprise", price: "Custom", features: ["Unlimited API calls", "Dedicated support", "Custom SLA", "On-premise option"] },
+                  { name: "Free tier", price: "Not set", features: ["Limits and terms not yet defined"] },
+                  { name: "Paid tiers", price: "Not set", features: ["Pricing not yet defined"] },
+                  { name: "Enterprise", price: "Custom", features: ["Contact us to discuss needs"] },
                 ].map((tier) => (
                   <div key={tier.name} className="pb-6 border-b border-[var(--border-default)] last:border-0 last:pb-0">
                     <div className="flex justify-between items-center mb-2">
@@ -445,19 +441,19 @@ const insight = await sos.ai.query({
             Ready to <span className="text-gradient-gold">Start Building</span>?
           </h2>
           <p className="text-[var(--text-secondary)] text-lg mb-8">
-            Create your developer account and get your API keys in seconds.
+            Developer access is not open yet. Follow Alpha Protocol for updates.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://console.vibertas.io"
+              href="https://www.alphaprotocol.network/join"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Get API Keys
+              Get updates
             </a>
             <a href="#quickstart" className="btn-secondary">
-              Read the Docs
+              See the plan
             </a>
           </div>
         </div>

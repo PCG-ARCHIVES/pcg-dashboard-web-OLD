@@ -55,20 +55,12 @@ export default function FlagshipSection() {
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
-                href="https://app.pcgdashboard.com"
+                href="https://www.alphaprotocol.network/join"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
               >
-                Launch Dashboard
-              </a>
-              <a
-                href="https://github.com/powerclubglobal/pcg-dashboard"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-secondary"
-              >
-                View Source
+                Get updates
               </a>
             </div>
           </div>
@@ -140,12 +132,12 @@ export default function FlagshipSection() {
             Want to build the next flagship app on Vibertas?
           </p>
           <a
-            href="https://docs.vibertas.dev"
+            href="https://www.alphaprotocol.network/join"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[var(--cyan)] hover:text-[var(--cyan-light)] transition-colors font-medium"
           >
-            Read the Developer Docs →
+            Get updates →
           </a>
         </div>
       </div>

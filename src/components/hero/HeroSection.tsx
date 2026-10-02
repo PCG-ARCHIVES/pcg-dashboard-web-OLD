@@ -8,8 +8,7 @@ export default function HeroSection() {
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Status badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--cyan)]/10 border border-[var(--cyan)]/30 rounded-full text-[var(--cyan)] text-sm mb-8 animate-fade-in-up">
-          <span className="status-dot online" />
-          Now Available for Personal &amp; Enterprise
+          In development
         </div>
 
         {/* Main headline */}
@@ -24,8 +23,8 @@ export default function HeroSection() {
           className="text-xl md:text-2xl text-[var(--text-secondary)] max-w-3xl mx-auto mb-6 animate-fade-in-up"
           style={{ animationDelay: "0.2s" }}
         >
-          A complete operating system built on the Sovereign Stack mesh.
-          For your home, your devices, your enterprise—with privacy at the core.
+          A NixOS-based operating system for Sovereign Stack nodes, in development.
+          Not yet released to the public.
         </p>
 
         {/* Device types */}

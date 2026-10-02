@@ -29,7 +29,7 @@ const ecosystemProjects = [
   {
     id: "vibeland",
     name: "VIBELAND",
-    url: "https://vibeland.com",
+    url: "https://vibeland-web.vercel.app",
     color: "#3b82f6",
   },
   {
@@ -67,8 +67,7 @@ export default function Footer() {
               For personal devices, smart homes, wearables, and enterprise.
             </p>
             <div className="flex items-center gap-2">
-              <span className="status-dot online" />
-              <span className="text-xs text-[var(--status-success)]">All Systems Operational</span>
+              <span className="text-xs text-[var(--text-muted)]">In development</span>
             </div>
           </div>
 
@@ -137,7 +136,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-[var(--text-muted)] hover:text-[var(--gold)] transition-colors"
                 >
-                  PowerClub Global
+                  Powerclub Global
                 </a>
               </li>
               <li>
@@ -181,7 +180,7 @@ export default function Footer() {
         <div className="pt-6 border-t border-[var(--border-default)]">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-[var(--text-muted)]">
-              &copy; 2026 Vibertas by <a href="https://powerclubglobal.com" target="_blank" rel="noopener noreferrer" className="text-[var(--gold)] hover:underline">PowerClub Global</a>. Part of the Sovereign Stack.
+              &copy; 2026 Vibertas by <a href="https://powerclubglobal.com" target="_blank" rel="noopener noreferrer" className="text-[var(--gold)] hover:underline">Powerclub Global</a>. Part of the Sovereign Stack.
             </p>
             <div className="flex items-center gap-4">
               <Link href="/about" className="text-xs text-[var(--text-muted)] hover:text-[var(--text-secondary)] transition-colors">

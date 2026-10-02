@@ -62,7 +62,7 @@ const useCases = [
     id: "enterprise",
     title: "Enterprise",
     subtitle: "Sovereign Infrastructure",
-    description: "Deploy Vibertas across your organization. Self-hosted, compliant, and fully under your control.",
+    description: "Designed for self-hosted deployment under your control.",
     features: [
       "On-premise deployment",
       "Compliance & audit tools",

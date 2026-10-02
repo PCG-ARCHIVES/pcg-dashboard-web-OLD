@@ -6,17 +6,17 @@ export default function CTASection() {
           Ready to Build on the <span className="text-gradient-gold">Mesh</span>?
         </h2>
         <p className="text-[var(--text-secondary)] text-lg mb-8 max-w-2xl mx-auto">
-          Join developers building the next generation of decentralized applications.
-          Vibertas gives you the tools—you bring the vision.
+          Vibertas is in development and not yet released.
+          Follow Alpha Protocol for updates.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://docs.vibertas.dev/quickstart"
+            href="https://www.alphaprotocol.network/join"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary text-lg px-8 py-4"
           >
-            Start Building
+            Get updates
           </a>
           <a
             href="https://discord.gg/vibertas"

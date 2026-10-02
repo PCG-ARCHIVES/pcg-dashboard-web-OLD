@@ -14,14 +14,13 @@ export default function Dashboard() {
       <NavyGridBackground className="py-12">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-[var(--cyan)]/10 border border-[var(--cyan)]/30 rounded-full text-[var(--cyan)] text-xs mb-4">
-            <span className="status-dot online" />
-            Preview Mode
+            Concept preview, sample data
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="text-gradient-gold">PCG Dashboard</span> Preview
           </h1>
           <p className="text-[var(--text-secondary)]">
-            The flagship application on Vibertas. Experience what your personal dashboard will look like.
+            A concept of the flagship application on Vibertas. All numbers and devices shown are sample data. Not a live product.
           </p>
         </div>
       </NavyGridBackground>
@@ -41,7 +40,7 @@ export default function Dashboard() {
               <div className="text-2xl font-bold text-[var(--text-primary)]">7</div>
               <div className="flex items-center gap-1 text-xs text-[var(--cyan)] mt-1">
                 <span className="status-dot online" />
-                All online
+                Sample data
               </div>
             </div>
             <div className="p-4 bg-[var(--bg-card)] rounded-xl border border-[var(--border-default)]">
@@ -186,16 +185,16 @@ export default function Dashboard() {
             Get Your Own <span className="text-gradient-gold">Dashboard</span>
           </h2>
           <p className="text-[var(--text-secondary)] mb-6">
-            Create a free Vibertas account to access PCG Dashboard and manage your digital sovereignty.
+            Vibertas is in development and not yet released. Follow Alpha Protocol for updates.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://app.vibertas.io/register"
+              href="https://www.alphaprotocol.network/join"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Create Free Account
+              Get updates
             </a>
             <Link href="/features" className="btn-secondary">
               Explore Features

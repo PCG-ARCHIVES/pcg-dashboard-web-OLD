@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     default: "Vibertas - Own Your Digital Life",
     template: "%s | Vibertas",
   },
-  description: "Vibertas is the operating system for the Sovereign Stack. Privacy-first OS for personal devices, smart homes, wearables, and enterprise with mesh networking, AI, and token economics.",
+  description: "Vibertas is a NixOS-based node operating system for the Sovereign Stack. In development and not yet released.",
   keywords: ["vibertas", "sovereign stack", "privacy os", "mesh network", "pcg dashboard", "alpha protocol", "omega", "vibe token", "pythia ai", "powerclub global"],
 };
 

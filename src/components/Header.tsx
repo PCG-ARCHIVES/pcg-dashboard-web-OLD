@@ -48,7 +48,7 @@ const ecosystemProjects = [
     name: "VIBELAND",
     shortName: "VIBELAND",
     description: "The Sovereign Metaverse - Immersive 3D Worlds",
-    url: "https://vibeland.com",
+    url: "https://vibeland-web.vercel.app",
     color: "#3b82f6",
   },
   {
@@ -204,18 +204,18 @@ export default function Header() {
           {/* CTA Buttons */}
           <div className="flex items-center gap-4">
             <a
-              href="https://app.vibertas.io"
+              href="https://www.alphaprotocol.network/join"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[var(--text-secondary)] hover:text-[var(--yellow)] transition-colors text-sm font-medium"
             >
-              Launch App
+              Get updates
             </a>
             <Link
               href="/developers#quickstart"
               className="btn-primary text-sm"
             >
-              Start Building
+              Developers
             </Link>
           </div>
         </div>
@@ -330,19 +330,19 @@ export default function Header() {
             ))}
             <div className="pt-4 space-y-2">
               <a
-                href="https://app.vibertas.io"
+                href="https://www.alphaprotocol.network/join"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block py-2 text-[var(--text-secondary)] hover:text-[var(--yellow)]"
               >
-                Launch App
+                Get updates
               </a>
               <Link
                 href="/developers#quickstart"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block btn-primary text-center"
               >
-                Start Building
+                Developers
               </Link>
             </div>
           </nav>
