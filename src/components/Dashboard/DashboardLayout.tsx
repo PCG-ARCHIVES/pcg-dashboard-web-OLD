@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Sidebar from './Sidebar'
 import PipelineView from './PipelineView'
 import WebsitesView from './WebsitesView'
+import AgentLinksView from './AgentLinksView'
 import { Bell, Menu } from 'lucide-react'
 
 export default function DashboardLayout() {
@@ -12,6 +13,7 @@ export default function DashboardLayout() {
     switch (activeTab) {
       case 'pipeline': return <PipelineView />
       case 'websites': return <WebsitesView />
+      case 'agent-links': return <AgentLinksView />
       default: return <PipelineView />
     }
   }

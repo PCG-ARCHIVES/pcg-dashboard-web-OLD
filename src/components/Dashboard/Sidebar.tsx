@@ -1,5 +1,5 @@
 import React from 'react'
-import { Building2, Users, Globe, Calendar, CreditCard, Package, Settings } from 'lucide-react'
+import { Building2, Users, Globe, Calendar, CreditCard, Package, Settings, Bot } from 'lucide-react'
 
 interface NavItem {
   id: string
@@ -16,6 +16,7 @@ export default function Sidebar({ active, onChange, open }: { active: string, on
     { id: 'analytics', name: 'Brand Analytics', icon: Building2 },
     { id: 'payments', name: 'Payments & Orders', icon: CreditCard, count: 5 },
     { id: 'fulfillment', name: 'Fulfillment', icon: Package, count: 3 },
+    { id: 'agent-links', name: 'Agent Interface', icon: Bot },
     { id: 'settings', name: 'Settings', icon: Settings }
   ]
 
